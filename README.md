@@ -104,8 +104,8 @@ Flexbox fue utilizado para:
 
 El comportamiento adaptable fue logrado mediante:
 
-```
-flex: 1 1 320px;
+
+```flex: 1 1 320px;
 width: min();
 font-size: clamp();
 ```
@@ -123,7 +123,13 @@ font-size: clamp();
 
 ## 🖥 Vista previa
 
-## 📱 Móviles
+### 💻 escritorio
+
+- sidebar lateral
+- sección principal amplia
+- diseño limpio y profesional
+
+### 📱 Móviles
 
 - estructura adaptable
 - contenido centrado
