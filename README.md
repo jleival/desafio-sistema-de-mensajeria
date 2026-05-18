@@ -17,7 +17,7 @@ Construir una interfaz responsive que permita:
 - 🎨 crear un diseño limpio y moderno
 - ⚡ utilizar únicamente Flexbox
 
-##  🛠 Tecnologías utilizadas
+## 🛠 Tecnologías utilizadas
 
 | tecnología     | uso                     |
 | -------------- | ----------------------- |
@@ -73,7 +73,7 @@ Todo alineado utilizando Flexbox.
 
 📍 contenido centrado vertical y horizontalmente
 
-## 📂 estructura del proyecto
+## 📂 Estructura del proyecto
 
 ``` proyecto/
 │
@@ -123,13 +123,13 @@ font-size: clamp();
 
 ## 🖥 Vista previa
 
-### 💻 escritorio
+### 💻 Escritorio
 
 - sidebar lateral
 - sección principal amplia
 - diseño limpio y profesional
 
-### 📱 Móviles
+### 📱 Móviles
 
 - estructura adaptable
 - contenido centrado
