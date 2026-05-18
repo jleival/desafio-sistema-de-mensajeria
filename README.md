@@ -9,6 +9,9 @@ El desafío fue desarrollado para la empresa ficticia **Contact Me SPA**, cuyo o
 ## 🚀 Demo / Previsualización
 <p align="center"> <a href="https://jleival.github.io/desafio-sistema-de-mensajeria/" target="_blank"> <img src="https://img.shields.io/badge/🌐%20Ver%20Proyecto-Online-00C853?style=for-the-badge" alt="Demo Online"> </a> </p>
 
+## 📂 Repositorio
+<p align="center"> <a href="https://github.com/jleival/desafio-sistema-de-mensajeria" target="_blank"> <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github"> </a> </p>
+
 ## 🎯 Objetivo del proyecto
 
 Construir una interfaz responsive que permita:
