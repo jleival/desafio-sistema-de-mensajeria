@@ -6,6 +6,9 @@ Este proyecto corresponde al desarrollo de una interfaz de sistema de mensajerí
 
 El desafío fue desarrollado para la empresa ficticia **Contact Me SPA**, cuyo objetivo era construir una pantalla de contactos y conversaciones adaptable tanto a dispositivos móviles como a escritorio.
 
+## 🚀 Demo / Previsualización
+<p align="center"> <a href="https://jleival.github.io/desafio-sistema-de-mensajeria/" target="_blank"> <img src="https://img.shields.io/badge/🌐%20Ver%20Proyecto-Online-00C853?style=for-the-badge" alt="Demo Online"> </a> </p>
+
 ## 🎯 Objetivo del proyecto
 
 Construir una interfaz responsive que permita:
