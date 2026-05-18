@@ -1,12 +1,12 @@
-# 💬 README - Sistema de mensajería responsive
+# 💬 README - Sistema de mensajería responsive
 
-## 📌 descripción
+## 📌 Descripción
 
 Este proyecto corresponde al desarrollo de una interfaz de sistema de mensajería moderna creada con **HTML5** y **CSS3**, utilizando exclusivamente **Flexbox** para la maquetación responsive.
 
 El desafío fue desarrollado para la empresa ficticia **Contact Me SPA**, cuyo objetivo era construir una pantalla de contactos y conversaciones adaptable tanto a dispositivos móviles como a escritorio.
 
-## 🎯 objetivo del proyecto
+## 🎯 Objetivo del proyecto
 
 Construir una interfaz responsive que permita:
 
@@ -17,7 +17,7 @@ Construir una interfaz responsive que permita:
 - 🎨 crear un diseño limpio y moderno
 - ⚡ utilizar únicamente Flexbox
 
-## 🛠 Tecnologías utilizadas
+## 🛠 Tecnologías utilizadas
 
 | tecnología     | uso                     |
 | -------------- | ----------------------- |
@@ -28,9 +28,9 @@ Construir una interfaz responsive que permita:
 
 ## ✨ Características principales
 
-### 📱 Diseño responsive
+### 📱 Diseño responsive
 
-### El proyecto se adapta automáticamente sin utilizar:
+### El proyecto se adapta automáticamente sin utilizar:
 
 - ❌ media queries
 - ❌ Bootstrap
@@ -91,7 +91,7 @@ Todo alineado utilizando Flexbox.
 │       └── contactos/ 
 ```
 
-## 📚 Conceptos aplicados:
+## 📚 Conceptos aplicados:
 
 Flexbox fue utilizado para:
 
@@ -129,7 +129,7 @@ font-size: clamp();
 - sección principal amplia
 - diseño limpio y profesional
 
-### 📱 Móviles
+### 📱 Móviles
 
 - estructura adaptable
 - contenido centrado
