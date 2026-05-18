@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+/* Reseteo general del documento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* Estructura principal flexible para que los elementos se apilen en celular */
+main {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Barra lateral elástica que ocupa todo el ancho en pantallas pequeñas */
+aside {
+    flex: 1 1 320px; 
+    max-width: 100%; 
+    border: none;
+    box-shadow: 1px 0 0 0 #dcdcdc; 
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* Encabezado distribuido para alinear los iconos a la derecha */
+.encabezado {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #f0f0f0;
+    gap: 10px;
+}
+
+/* Contenedor de foto y nombre */
+.encabezado figure {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.encabezado img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+figcaption strong { font-size: 1rem; color: #222; }
+figcaption small { color: #999; font-size: 0.75rem; }
+
+/* Contenedor de iconos empujado totalmente a la derecha */
+.encabezado nav {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: auto; /* Esta línea mueve los iconos al extremo derecho */
+}
+
+.encabezado button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* Tamaño y transparencia de los iconos svg */
+.icon-svg {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+/* Contenedor del botón con centrado total */
+aside > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+/* Botón nuevo chat con estilo morado sólido */
+.b-chat {
+    width: min(85%, 260px);
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    background: #a491d2; 
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Lista de contactos con separadores sutiles */
+.sect-chat article {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.sect-chat img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Sección de bienvenida responsiva */
+.sect-hand {
+    flex: 10 1 400px; 
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.art-hand {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Cuadro morado con iconos de puños en blanco */
+.fig-hand {
+    width: min(240px, 60vw);
+    aspect-ratio: 1 / 1;
+    background-color: #a491d2; 
+    border-radius: 20px;
+    margin: 0 auto 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-hand {
+    width: 65%;
+    height: auto;
+}
+
+.sect-hand h1 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.sect-hand p {
+    font-size: 1.05rem;
+    color: #666;
+    line-height: 1.5;
+}
