@@ -121,7 +121,7 @@ font-size: clamp();
 | ➕ botón nuevo chat centrado       | ✅      |
 | 👤 estado e iconos del usuario     | ✅      |
 
-## 🖥 Vista previa
+## 🖥 Vista previa
 
 ### 💻 escritorio
 
